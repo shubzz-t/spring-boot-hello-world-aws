@@ -11,6 +11,7 @@
 
     <groupId>com.example</groupId>
     <artifactId>spring-boot-hello-world</artifactId>
+    <packaging>war</packaging>
     <version>1.0.2-SNAPSHOT</version>
 
     <name>spring-boot-2-hello-world</name>
@@ -43,8 +44,8 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
-            <finalName>${artifactId}</finalName>
         </plugins>
+        <finalName>${artifactId}</finalName>
     </build>
 
 </project>

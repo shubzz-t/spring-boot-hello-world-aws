@@ -1,0 +1,25 @@
+version: 0.0
+os: linux
+files: 
+  - source: /root/.m2/repository/com/example/spring-boot-hello-world/1.0.2-SNAPSHOT/spring-boot-hello-world-1.0.2-SNAPSHOT.jar
+    destination: /var/lib/tomcat9/webapps/
+hooks:
+  BeforeInstall:
+  - location: scripts/before_install.sh
+    timeout: 300
+    runas: root
+  
+  AfterInstall:
+  - location: scripts/after_install.sh
+    timeout: 300
+    runas: root
+
+  ApplicationStart:
+  - location: scripts/start_server.sh
+    timeout: 300
+    runas: root
+
+  ApplicationStop:
+  - location: scripts/stop_server.sh
+    timeout: 300
+    runas: root
