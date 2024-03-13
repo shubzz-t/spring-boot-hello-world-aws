@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files: 
   - source: target/spring-boot-hello-world.war
-    destination: /var/lib/tomcat9/webapps/ROOT/
+    destination: /var/lib/tomcat9/webapps/
 hooks:
   BeforeInstall:
   - location: scripts/before_install.sh
