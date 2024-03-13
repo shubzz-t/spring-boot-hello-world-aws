@@ -1,7 +1,7 @@
 version: 0.0
 os: linux
 files: 
-  - source: /root/.m2/repository/com/example/spring-boot-hello-world/1.0.2-SNAPSHOT/spring-boot-hello-world-1.0.2-SNAPSHOT.jar
+  - source: target/spring-boot-hello-world.jar
     destination: /var/lib/tomcat9/webapps/
 hooks:
   BeforeInstall:
