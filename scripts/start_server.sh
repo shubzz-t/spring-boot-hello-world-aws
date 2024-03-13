@@ -1,2 +1,3 @@
 #!/bin/bash
-service tomcat9 start
+cd /var/lib/tomcat9/webapps/
+java -jar spring-boot-hello-world.jar
