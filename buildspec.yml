@@ -12,6 +12,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - mvn clean
       - mvn install
   
   post_build:
@@ -20,7 +21,7 @@ phases:
 
 artifacts:
  files:
-  - 'target/spring-boot-hello-world.jar'
+  - 'target/spring-boot-hello-world.war'
   - 'appspec.yml'
   - 'scripts/before_install.sh'
   - 'scripts/after_install.sh'
