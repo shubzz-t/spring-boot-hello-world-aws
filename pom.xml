@@ -37,11 +37,13 @@
             <scope>test</scope>
         </dependency>
         
-        <dependency>
-            <groupId>com.fasterxml.jackson.datatype</groupId>
-            <artifactId>jackson-datatype-jsr310</artifactId>
-            <version>2.13.5</version> <!-- Replace with the desired version -->
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.datatype/jackson-datatype-jsr310 -->
+<dependency>
+    <groupId>com.fasterxml.jackson.datatype</groupId>
+    <artifactId>jackson-datatype-jsr310</artifactId>
+    <version>2.16.1</version>
 </dependency>
+
     </dependencies>
 
     <build>
