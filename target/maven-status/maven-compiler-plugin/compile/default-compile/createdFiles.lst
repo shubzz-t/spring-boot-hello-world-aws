@@ -1,3 +1,2 @@
-com/example/hello/HelloWorldApplication.class
-com/example/hello/controller/RestHelloController.class
-com/example/hello/controller/HelloController.class
+org/arpit/java2blog/SpringBootHelloWorldApplication.class
+org/arpit/java2blog/springboot/HelloWorldController.class
