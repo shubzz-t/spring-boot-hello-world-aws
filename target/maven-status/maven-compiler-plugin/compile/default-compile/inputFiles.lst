@@ -1,2 +1,3 @@
-/home/shubz/Downloads/spring-boot-hello-world/src/main/java/com/example/helloworld/HelloWorldApplication.java
-/home/shubz/Downloads/spring-boot-hello-world/src/main/java/com/example/helloworld/controller/HelloWorldController.java
+/home/shubz/Downloads/spring-boot-hello-world/src/main/java/com/example/hello/controller/RestHelloController.java
+/home/shubz/Downloads/spring-boot-hello-world/src/main/java/com/example/hello/controller/HelloController.java
+/home/shubz/Downloads/spring-boot-hello-world/src/main/java/com/example/hello/HelloWorldApplication.java
