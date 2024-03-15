@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.hello</groupId>
-	<artifactId>hello-world</artifactId>
-	<version>1.0</version>
+	<artifactId>HelloWorld</artifactId>
 	<packaging>war</packaging>
+	<version>1.0</version>
 	<name>HelloWorld</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
@@ -50,5 +50,6 @@
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
 		</plugins>
+		<finalName>${project.artifactId}</finalName>
 	</build>
 </project>

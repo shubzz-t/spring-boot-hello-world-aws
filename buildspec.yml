@@ -21,7 +21,7 @@ phases:
 
 artifacts:
  files:
-  - 'target/spring-boot-hello-world.war'
+  - 'target/HelloWorld.war'
   - 'appspec.yml'
   - 'scripts/before_install.sh'
   - 'scripts/after_install.sh'
